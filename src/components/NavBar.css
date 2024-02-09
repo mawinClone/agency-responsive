@@ -84,7 +84,7 @@ body {
     position: absolute;
     right: 0;
     top: 60px;
-    background-color: #fef7e5;
+    background-color: #ffffff;
     width: 0px;
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
@@ -108,8 +108,8 @@ body {
   .nav-elements {
     position: absolute;
     right: 0;
-    top: 60px;
-    background-color: #fef7e5;
+    top: 70px;
+    background-color: #ffffff;
     width: 0px;
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
@@ -120,7 +120,7 @@ body {
     position: absolute;
     right: 0;
     top: 60px;
-    background-color: #fef7e5;
+    background-color: #ffffff;
     width: 0px;
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
