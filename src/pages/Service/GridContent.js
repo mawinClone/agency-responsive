@@ -3,9 +3,9 @@ import "./GridContent.css";
 
 const GridContent = () => {
   return (
-    <div>
+    <div className="grid-parent">
       <div>
-        <h3 style={{ textAlign: "center", margin: "30px 0px 30px 0px" }}>
+        <h3 style={{ textAlign: "center"}}>
           OUR SERVICE
         </h3>
       </div>
@@ -42,7 +42,7 @@ const GridContent = () => {
         </h3>
       </div>
 
-      <div className="grid-container" style={{marginBottom:"30px"}}>
+      <div className="grid-container">
         <div className="grid-item2">item 1</div>
         <div className="grid-item2">item 2</div>
         <div className="grid-item2">item 3</div>

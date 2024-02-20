@@ -28,9 +28,9 @@ const Footer = () => {
                     <div className="sb-footer-links-div">
                         <div className="socialMedia">
                             <h1>D | </h1>
-                            <a>1</a>
-                            <a>2</a>
-                            <a>3</a>
+                            <a>.</a>
+                            <a>.</a>
+                            <a>.</a>
                         </div>
                         <a><p>เหนือกว่า One-stop service เพราะเราคือ Digital Marketing Agency ที่นำ Innovation มาเพิ่มประสิทธิภาพการตลาดออนไลน์ของคุณให้ถึงขีดสุด เราพร้อมผลักดันการตลาดของคุณ ให้รวดเร็วฉับไวทันต่อสถานการณ์เสมอ ด้วยระบบ Agile Management ที่เหนือกว่าใคร ทั้งหมดนี้ในราคาที่คุณจะต้องพอใจ</p></a>
 

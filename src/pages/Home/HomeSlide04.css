@@ -1,0 +1,81 @@
+.HomeSlide04{
+    background-color: #480ED8;
+
+
+    height: 100vh;
+    
+}
+
+.ask-container{
+    /* background-color: rgb(117, 117, 117); */
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.ask-flex{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.ask-detail{
+    /* background-color: rgb(133, 88, 255); */
+    width: 60%;
+    /* height: 100%; */
+}
+
+.ask-topic{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+
+
+.center-detail{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    width: 100%;
+}
+.list-detail{
+    width:50%
+}
+
+.list-detail-item{
+    background-color: white;
+    padding: 10px 30px 10px 10px;
+    border-radius: 15px;
+    margin: 10px;
+    width:85%;
+    
+    text-align: end;
+}
+
+.ask-form{
+    /* background-color: firebrick; */
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ask-form-div{
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+

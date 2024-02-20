@@ -1,0 +1,48 @@
+.ContactSlide01{
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.contact-container{
+    width: 80vw;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px;
+    padding-bottom: 100px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container h4{
+    color: rgb(84, 84, 84);
+}
+
+.contact-container-center{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.contact-center-list{
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+}
+
+.contact-center-list ul{
+    margin-top: 30px;
+}
+.contact-center-list li{
+    margin-bottom: 20px;
+}
+
+.contact-center-img{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}

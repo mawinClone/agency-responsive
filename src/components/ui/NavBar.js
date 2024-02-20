@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 // import { ReactComponent as Brand } from '../../assets/icons/logo.svg'
 import LineImg from "../../assets/images/line-img.png";
 import PhoneImg from "../../assets/images/phone-img.png";
+import Logo from "../../assets/images/logo.png";
 import { CgMenu } from "react-icons/cg";
 import "./NavBar.css";
 
@@ -18,8 +19,11 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          {/* <Brand /> */}
-          <p>logo</p>
+          <img
+              src={Logo}
+              style={{ marginRight: "10px", maxWidth: "110px", paddingTop:"10px" }}
+              alt="line-logo"
+            />
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <CgMenu />
@@ -30,7 +34,7 @@ const Navbar = () => {
             <li>HOME</li>
             <li>SERVICE</li>
             <li>ABOUT US</li>
-            <li>Contract </li>
+            <li>Contact </li>
           </ul>
         </div>
 
