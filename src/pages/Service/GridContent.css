@@ -30,10 +30,18 @@
     }
 }
 
+@media (max-width: 600px) {
+    .grid-container{
+        grid-template-rows: repeat(3, 70px);
+        grid-template-columns: repeat(6, 70px);
+    }
+}
+
 @media (max-width: 480px) {
     .grid-container{
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-columns: repeat(6, 1fr);
+        /* background-color: red; */
+        grid-template-rows: repeat(3, 50px);
+        grid-template-columns: repeat(6, 50px);
     }
 }
 
@@ -41,13 +49,15 @@
     text-align: center;
     /* align-items: center; */
     background-color: teal;
-    padding: 3rem;
+    /* padding: 3rem; */
+    font-size: 1vw;
 }
 .grid-item2{
     text-align: center;
     /* align-items: center; */
     background-color: teal;
-    padding: 3rem;
+    font-size: 1vw;
+    /* padding: 3rem; */
 }
 
 .grid-item:nth-child(1){

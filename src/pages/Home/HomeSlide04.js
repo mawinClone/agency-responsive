@@ -33,7 +33,7 @@ const HomeSlide04 = () => {
             </div>
 
             <div style={{color:"white"}}>
-              Line OA เบอร์ติดต่อ : 091-715-3583 เบอร์ติดต่อ : 091-715-3583
+              <p>Line OA เบอร์ติดต่อ : 091-715-3583 เบอร์ติดต่อ : 091-715-3583</p>
             </div>
           </div>
 
@@ -42,28 +42,28 @@ const HomeSlide04 = () => {
             <div className="ask-form-div">
               <h1 style={{textAlign:"center", marginTop:"50px", marginBottom:"50px"}}>ให้เราติดต่อคุณ</h1>
               <form action="#" className="form-container">
-                <div class="form-row">
-                  <div class="input-data">
+                <div className="form-row">
+                  <div className="input-data">
                     <input type="text" required />
-                    <div class="underline"></div>
-                    <label for="">ชื่อ*</label>
+                    <div className="underline"></div>
+                    <label >ชื่อ*</label>
                   </div>
-                  <div class="input-data">
+                  <div className="input-data">
                     <input type="text" required />
-                    <div class="underline"></div>
-                    <label for="">อีเมล*</label>
+                    <div className="underline"></div>
+                    <label >อีเมล*</label>
                   </div>
                 </div>
-                <div class="form-row">
-                  <div class="input-data">
+                <div className="form-row">
+                  <div className="input-data">
                     <input type="text" required />
-                    <div class="underline"></div>
-                    <label for="">เบอร์มือถือ*</label>
+                    <div className="underline"></div>
+                    <label >เบอร์มือถือ*</label>
                   </div>
-                  <div class="input-data">
+                  <div className="input-data">
                     <input type="text" required />
-                    <div class="underline"></div>
-                    <label for="">บริการที่สนใจ*</label>
+                    <div className="underline"></div>
+                    <label >บริการที่สนใจ*</label>
                     
                   </div>
                 </div>

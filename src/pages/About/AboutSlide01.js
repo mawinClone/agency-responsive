@@ -6,7 +6,7 @@ const AboutSlide01 = () => {
   return (
     <div className="AboutSlide01">
       <div className="about-container">
-        <h3 style={{color:"gray"}}>ABOUT US</h3>
+        <h3 style={{color:"gray", marginTop:"100px"}}>ABOUT US</h3>
         <div>
         <h1 style={{display:"inline-block", marginRight:"15px", color:"#6100FF"}}>DUDESTAR </h1>
         <h1 style={{display:"inline-block", color:"#0087FF"}}>DIGITAL MARKETING</h1>

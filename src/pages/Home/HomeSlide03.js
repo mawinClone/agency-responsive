@@ -1,5 +1,9 @@
 import React from "react";
 import "./HomeSlide03.css";
+import whowePic from "../../assets/images/Home/whowe.png"
+import newsPic01 from "../../assets/images/Home/news01.png"
+import newsPic02 from "../../assets/images/Home/News02.png"
+import newsPic03 from "../../assets/images/Home/news03.png"
 
 const HomeSlide03 = () => {
   return (
@@ -8,7 +12,7 @@ const HomeSlide03 = () => {
       <div className="intro-container">
         <div className="intro-div">
           <div className="text-intro-div">
-            <p className="text-topic">เราคือใคร ?</p>
+            <div className="text-topic">เราคือใคร ?</div>
             <p>DudeStar Digital Marketing</p>
             <p>
               เราเป็นทีมการตลาดที่มีความเชี่ยวชาญและมีประสบการณ์ในด้าน Online
@@ -20,7 +24,7 @@ const HomeSlide03 = () => {
           </div>
 
           <div className="img-intro-div">
-            <img src="https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Online-Marketing.jpg"></img>
+            <img src={whowePic}></img>
           </div>
         </div>
       </div>
@@ -30,9 +34,9 @@ const HomeSlide03 = () => {
           <h1>ข่าวสาร</h1>
           <hr></hr>
           <div className="news-flex-container">
-            <div className="news-item"></div>
-            <div className="news-item"></div>
-            <div className="news-item"></div>
+            <div className="news-item"><img className="news-pic" src={newsPic01}></img></div>
+            <div className="news-item"><img className="news-pic" src={newsPic02}></img></div>
+            <div className="news-item"><img className="news-pic" src={newsPic03}></img></div>
           </div>
         </div>
         

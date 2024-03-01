@@ -14,10 +14,10 @@ function App() {
 
     <div className="App"> 
       <Navbar/>
-      {/* <Home/> */}
+      <Home/>
       {/* <Service/> */}
       {/* <About/> */}
-      <Contact/>
+      {/* <Contact/> */}
       <Footer/>
       
     </div>

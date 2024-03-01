@@ -18,15 +18,17 @@
     flex-direction: row;
     /* flex */
     justify-content: center;
+    flex: 1 1 0%;
+    width: 100%;
     /* margin-bottom: 30px; */
     
 }
 
 .service-item{
     width: 350px;
-    height: 330px;
+    height: 17vw;
     margin-right: 30px;
-
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
 }

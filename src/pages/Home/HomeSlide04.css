@@ -56,6 +56,10 @@
     text-align: end;
 }
 
+.list-detail-item p{
+    font-size:calc(3px + 0.8vw);
+}
+
 .ask-form{
     /* background-color: firebrick; */
     width: 45%;
@@ -64,6 +68,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
 .ask-form-div{

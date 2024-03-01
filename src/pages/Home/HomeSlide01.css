@@ -1,5 +1,5 @@
 .HomeSlide{
-    background: url("https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg");
+    background: url(/src/assets/images/Home/Home01.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -42,7 +42,9 @@
 
 .HomeSlide p{
     text-align: center;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size:calc(12px + 1.5vw);
+    
     font-weight: lighter;
     margin-bottom: 20px;
     color: #ffffff;
@@ -50,13 +52,24 @@
 
 
 
-.HomeSlide .contact-us-div a p{
+.HomeSlide .contact-us-div .contact-btn {
     text-align: center;
     color: #ffffff;
     background-color: #480ED8;
-    width: 300px;
-    height: 90px;
+    width: calc(12px + 20vw);
+    height: calc(12px + 4.5vw);
     
-    padding: 25px 10px;
+    /* padding: 25px 10px; */
     border-radius: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeSlide .contact-us-div .contact-btn p {
+    
+    margin: 0 auto;
+    /* background-color: red; */
 }
