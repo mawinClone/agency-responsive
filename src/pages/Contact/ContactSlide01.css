@@ -5,13 +5,13 @@
 
 .contact-container{
     width: 80vw;
-    height: 100%;
+    min-height: 100vh;
+    height: auto;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
+
     display: flex;
     flex-direction: column;
-    /* gap: 30px;
-    padding-bottom: 100px; */
     align-items: center;
     justify-content: center;
 }
@@ -31,8 +31,13 @@
 }
 
 .contact-center-list{
-    width: 35%;
-    background-color: rgb(255, 255, 255);
+    width: 50%;
+    background-color: rgb(110, 108, 108);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-center-list ul{
@@ -43,6 +48,12 @@
 }
 
 .contact-center-img{
-    width: 30%;
-    background-color: rgb(255, 255, 255);
+    width: 50%;
+    background-color: rgb(146, 144, 144);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }

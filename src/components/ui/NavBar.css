@@ -34,8 +34,13 @@ body {
 }
 
 .nav-elements {
+  position: relative;
+  z-index: 3;
 }
 
+.nav-elements p {
+  color: white;
+}
 .nav-elements ul {
   display: flex;
   justify-content: space-between;
@@ -83,6 +88,10 @@ body {
   margin-right: 20px;
 }
 
+.contract-info p{
+  color: white;
+}
+
 @media (max-width: 900px) {
   .nav-elements ul li {
     margin-right: 40px;
@@ -124,6 +133,12 @@ body {
     transition: all 0.3s ease-in;
     overflow: hidden;
     z-index: 3;
+    /* padding-left: 20px; */
+  }
+
+  .nav-elements p {
+    color: black;
+    margin-left: 20px;
   }
 
   .contract-info{
@@ -136,6 +151,7 @@ body {
     transition: all 0.3s ease-in;
     overflow: hidden;
   }
+  
 
   .nav-elements.active {
     width: 270px;

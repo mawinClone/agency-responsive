@@ -8,8 +8,8 @@ const HomeSlide01 = () => {
       {/* <img src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg"></img> */}
       <div className="overay"></div>
       <div className="contact-us-div ">
-        <p className="font-link">บริการให้คำปรึกษาฟรี</p>
-        <p className="font-link">สำหรับผู้ที่มีความสนใจในบริการของเรา</p>
+        <p className="home-p1">บริการให้คำปรึกษาฟรี</p>
+        <p className="home-p2">สำหรับผู้ที่มีความสนใจในบริการของเรา</p>
 
         <div className="contact-btn">
           <p>ติดต่อเรา</p>

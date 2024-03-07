@@ -32,15 +32,32 @@
 
 .contact-us-div{
     position: absolute;
+    height: 100%;
     /* z-index: 0; */
     display: flex;
     flex-direction: column;
     
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    margin-bottom: 250px;
 }
 
-.HomeSlide p{
+
+
+
+.home-p1{
+    margin: 0 auto;
+    text-align: center;
+    /* font-size: 30px; */
+    font-size:calc(12px + 3vw);
+    
+    /* font-weight: lighter; */
+    margin-bottom: 1px;
+    color: #ffffff;
+}
+
+.home-p2{
+    margin: 0 auto;
     text-align: center;
     /* font-size: 30px; */
     font-size:calc(12px + 1.5vw);
@@ -49,6 +66,7 @@
     margin-bottom: 20px;
     color: #ffffff;
 }
+
 
 
 
@@ -66,10 +84,18 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    /* justify-items: center; */
 }
 
 .HomeSlide .contact-us-div .contact-btn p {
     
     margin: 0 auto;
-    /* background-color: red; */
+    text-align: center;
+    /* font-size: 30px; */
+    font-size:calc(12px + 1.5vw);
+    
+    font-weight: lighter;
+    /* margin-bottom: 20px; */
+    color: #ffffff;
 }
+

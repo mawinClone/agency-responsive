@@ -31,11 +31,35 @@ const ServiceSlide02 = () => {
                 <p>topic name</p>
                 </div>
             </div>
+            <div className="service-item">
+                <div className="service-pic">
+                    
+                </div>
+                <div className="service-topic">
+                <p>topic name</p>
+                </div>
+            </div>
+            <div className="service-item">
+                <div className="service-pic">
+                    
+                </div>
+                <div className="service-topic">
+                <p>topic name</p>
+                </div>
+            </div>
+            <div className="service-item">
+                <div className="service-pic">
+                    
+                </div>
+                <div className="service-topic">
+                <p>topic name</p>
+                </div>
+            </div>
             {/* <div className="service-item">item</div>
             <div className="service-item">item</div> */}
         </div>
         <div className="service-flex">
-            <div className="service-item">
+            {/* <div className="service-item">
                 <div className="service-pic">
                     
                 </div>
@@ -58,7 +82,7 @@ const ServiceSlide02 = () => {
                 <div className="service-topic">
                 <p>topic name</p>
                 </div>
-            </div>
+            </div> */}
             {/* <div className="service-item">item</div>
             <div className="service-item">item</div> */}
         </div>

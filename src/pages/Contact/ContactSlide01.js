@@ -21,15 +21,16 @@ const ContactSlide01 = () => {
               marginRight: "3px",
               paddingTop: "10px",
               display: "inline-block",
+              width:"15vw"
             }}
             alt="line-logo"
           />
 
           <h1 style={{ display: "inline-block", marginRight: "30px" }}>|</h1>
-          <h1 style={{ display: "inline-block", marginRight: "10px" }}>
+          <h1 style={{ display: "inline-block", marginRight: "10px",fontSize:"3vw" }}>
             เราเป็น Digital
           </h1>
-          <h1 style={{ display: "inline-block", color: "#6100FF" }}>
+          <h1 style={{ display: "inline-block", color: "#6100FF", fontSize:"3vw" }}>
             Marketing Agency
           </h1>
         </div>
@@ -47,9 +48,7 @@ const ContactSlide01 = () => {
           <img
             src={ContactMascot}
             style={{
-            //   marginRight: "3px",
-            //   paddingTop: "10px",
-            //   display: "inline-block",
+              width:"75%"
             }}
             alt="line-logo"
           />

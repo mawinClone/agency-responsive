@@ -97,7 +97,7 @@
 
 .news-item{
     position: relative;
-    background-color: #D9D9D9;
+    /* background-color: #D9D9D9; */
 
     display: flex;
     flex-direction: column;
@@ -109,7 +109,11 @@
     margin-right: 50px;
     margin-bottom: 20px;
 
+}
 
+.news-detail{
+    width: 100%;
+    /* background-color: rebeccapurple; */
 }
 
 .question-div{
@@ -118,4 +122,13 @@
 .question-container{
     width: 80vw;
     margin: 0 auto;
+}
+
+.question-flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.question-item{
+    margin-bottom: 30px;
 }

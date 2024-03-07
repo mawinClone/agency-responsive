@@ -31,10 +31,10 @@ const Navbar = () => {
 
         <div className={`nav-elements  ${showNavbar && "active"}`}>
           <ul>
-            <li>HOME</li>
-            <li>SERVICE</li>
-            <li>ABOUT US</li>
-            <li>Contact </li>
+            <li><Link to="/"><p>HOME</p></Link></li>
+            <li><Link to="/service"><p>SERVICE</p></Link></li>
+            <li><Link to="/about"><p>ABOUT US</p></Link></li>
+            <li><Link to="/contact"><p>CONTACT</p></Link></li>
           </ul>
         </div>
 
@@ -45,13 +45,13 @@ const Navbar = () => {
               style={{ marginRight: "10px", maxWidth: "40px" }}
               alt="line-logo"
             />
-            <li>Lorem ipsum</li>
+            <li><p>Lorem ipsum</p></li>
             <img
               src={PhoneImg}
               style={{ marginRight: "10px", maxWidth: "40px" }}
               alt="line-logo"
             />
-            <li>091-715-3583</li>
+            <li><p>091-715-3583</p></li>
           </ul>
         </div>
       </div>

@@ -23,3 +23,7 @@
 .about-container p{
     color: #535353;
 }
+
+.about-topic{
+    font-size: calc(10px + 1vw);
+}

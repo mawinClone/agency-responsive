@@ -20,6 +20,10 @@
     justify-content: center;
     flex: 1 1 0%;
     width: 100%;
+
+    margin:  0 auto;
+    height: auto;
+    flex-flow: row wrap;
     /* margin-bottom: 30px; */
     
 }
