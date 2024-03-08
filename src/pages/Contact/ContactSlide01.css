@@ -1,13 +1,13 @@
 .ContactSlide01{
     height: 100vh;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 .contact-container{
     width: 80vw;
     min-height: 100vh;
     height: auto;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(125, 125, 125); */
     margin: 0 auto;
 
     display: flex;
@@ -28,32 +28,63 @@
     margin-top: 30px;
     margin-bottom: 30px;
 
+
 }
+
+
 
 .contact-center-list{
     width: 50%;
-    background-color: rgb(110, 108, 108);
+    /* background-color: rgb(110, 108, 108); */
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
     justify-content: center;
+
+    padding-right: 15px;
 }
+
+
 
 .contact-center-list ul{
     margin-top: 30px;
 }
 .contact-center-list li{
-    margin-bottom: 20px;
+    margin-bottom: 0.5vw;
+}
+
+.contact-center-list li p{
+    font-size: calc(5px + 1vw);
+    font-weight: 390;
 }
 
 .contact-center-img{
     width: 50%;
-    background-color: rgb(146, 144, 144);
+    /* background-color: rgb(146, 144, 144); */
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 
+    padding-left: 15px;
+}
+
+@media (max-width: 1200px) {
+
+    .contact-container-center{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-center-list{
+        width: 70%;
+        align-items: center;
+    }
+    .contact-center-img{
+        padding: 30px;
+        width: 70%;
+        align-items: center;
+    }  
+    
 }

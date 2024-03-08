@@ -7,12 +7,12 @@ const ContactSlide01 = () => {
   return (
     <div className="ContactSlide01">
       <div className="contact-container">
-        <div style={{marginBottom:"30px"}}>contact</div>
+        <div style={{marginBottom:"30px", fontWeight:"lighter", fontSize:"2vw"}}><p>Contact</p></div>
         <div
           style={{
-            backgroundColor: "white",
             display: "flex",
             alignItems: "center",
+            justifyContent: "center",
           }}
         >
           <img
@@ -26,37 +26,37 @@ const ContactSlide01 = () => {
             alt="line-logo"
           />
 
-          <h1 style={{ display: "inline-block", marginRight: "30px" }}>|</h1>
-          <h1 style={{ display: "inline-block", marginRight: "10px",fontSize:"3vw" }}>
+          {/* <h3 style={{ display: "inline-block", marginRight: "30px", fontSize:"1.5vw" }}>|</h3> */}
+          <p style={{ display: "inline-block", marginRight: "10px",fontWeight:"normal",fontSize:"2.3vw" }}>
             เราเป็น Digital
-          </h1>
-          <h1 style={{ display: "inline-block", color: "#6100FF", fontSize:"3vw" }}>
+          </p>
+          <p style={{ display: "inline-block", color: "#6100FF",fontWeight:"normal", fontSize:"2.3vw" }}>
             Marketing Agency
-          </h1>
+          </p>
         </div>
 
         <div className="contact-container-center">
           <div className="contact-center-list">
             <ul>
-              <li>พัฒนาธุรกิจ</li>
-              <li>วางแผนธุรกิจระดับเริ่มต้นจนถึงขนาดกลาง</li>
-              <li>วางแผนการตลาดทางด้านออนไลน์</li>
-              <li>วางแผนการตลาดและพัฒนาธุรกิจแฟรนไชส์</li>
+              <li><p>พัฒนาธุรกิจ</p></li>
+              <li><p>วางแผนธุรกิจระดับเริ่มต้นจนถึงขนาดกลาง</p></li>
+              <li><p>วางแผนการตลาดทางด้านออนไลน์</p></li>
+              <li><p>วางแผนการตลาดและพัฒนาธุรกิจแฟรนไชส์</p></li>
             </ul>
           </div>
           <div  className="contact-center-img">
           <img
             src={ContactMascot}
             style={{
-              width:"75%"
+              width:"65%"
             }}
             alt="line-logo"
           />
           </div>
         </div>
 
-        <h4>"ให้เราพร้อมที่จะเป็นผู้ดูแลและสนับสนุนธุรกิจของคุณอย่างเต็มที่ ด้วยความคุ้มค่าและความน่าเชื่อถือ </h4>
-        <h4>เรามุ่งมั่นที่จะให้บริการที่ดีที่สุดเพื่อช่วยให้ธุรกิจของคุณเติบโตและประสบความสำเร็จอย่างยั่งยืน</h4>
+        <p style={{fontSize:"1vw", fontWeight:"300", color:"gray"}}>"ให้เราพร้อมที่จะเป็นผู้ดูแลและสนับสนุนธุรกิจของคุณอย่างเต็มที่ ด้วยความคุ้มค่าและความน่าเชื่อถือ </p>
+        <p style={{fontSize:"1vw", fontWeight:"300", color:"gray"}}>เรามุ่งมั่นที่จะให้บริการที่ดีที่สุดเพื่อช่วยให้ธุรกิจของคุณเติบโตและประสบความสำเร็จอย่างยั่งยืน</p>
       </div>
     </div>
   );
