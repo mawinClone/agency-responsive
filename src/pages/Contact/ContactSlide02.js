@@ -2,6 +2,11 @@ import React from "react";
 import "./ContactSlide02.css";
 import LineOA from "../../assets/images/line-oa.png";
 
+import facebookCircle from "../../assets/images/Service/facebook-circle.png";
+import tiktokCircle from "../../assets/images/Service/tiktok-circle.png";
+import igCircle from "../../assets/images/Service/ig-circle.png";
+import lineCircle from "../../assets/images/Service/line-circle.png";
+
 const ContactSlide02 = () => {
   return (
     <div className="ContactSlide02">
@@ -57,10 +62,10 @@ const ContactSlide02 = () => {
           </div>
 
           <div className="left-form-item-circle">
-            <div className="contact-form-circle"></div>
-            <div className="contact-form-circle"></div>
-            <div className="contact-form-circle"></div>
-            <div className="contact-form-circle"></div>
+            <div className="contact-form-circle" style={{backgroundColor:"#480ED8"}}><img src={facebookCircle} style={{width:"90%"}}></img></div>
+            <div className="contact-form-circle"><img src={tiktokCircle} style={{width:"90%"}}></img></div>
+            <div className="contact-form-circle"><img src={igCircle} style={{width:"90%"}}></img></div>
+            <div className="contact-form-circle"><img src={lineCircle} style={{width:"90%"}}></img></div>
           </div>
         </div>
 

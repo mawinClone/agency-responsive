@@ -1,4 +1,5 @@
-import './Modal.css';
+import "./Modal.css";
+import closeBtn from "../../assets/icons/closeBtn.png";
 
 const Modal = ({ handleClose, show, children }) => {
   const showHideClassName = show ? "modal display-block" : "modal display-none";
@@ -7,11 +8,12 @@ const Modal = ({ handleClose, show, children }) => {
     <div className={showHideClassName}>
       <section className="modal-main">
         {children}
-        <button type="button" onClick={handleClose}>
-          Close
-        </button>
+        <div className="btn-flex">
+          <img src={closeBtn} onClick={handleClose}></img>
+          {/* <button type="reset" onClick={handleClose} className='close-btn' >dsda</button> */}
+        </div>
       </section>
     </div>
   );
 };
-export default Modal
+export default Modal;

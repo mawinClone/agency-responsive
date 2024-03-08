@@ -68,34 +68,34 @@ const HomeSlide03 = () => {
 
       <div className="question-div">
         <div className="question-container">
-          <h1 style={{ marginBottom: "20px" }}>คำถามที่พบบ่อย</h1>
+          <h1 style={{ marginBottom: "20px", fontSize:"30px" }}><p>คำถามที่พบบ่อย</p></h1>
           <div className="question-flex-container">
             <div className="question-item">
-              <h2><p>ทำไมต้องจ้างบริษัท Agency ในการทำการตลาด</p></h2>
-              <p>
+              <><p className="qusetion-topic">ทำไมต้องจ้างบริษัท Agency ในการทำการตลาด</p></>
+              <p className="question-answer">
                 บริษัทอเจนซี่มักมีทีมงานที่มีความเชี่ยวชาญและประสบการณ์ในด้านตลาดและโฆษณา
                 ซึ่งสามารถช่วยให้โฆษณาของคุณมีประสิทธิภาพมากขึ้นได้
               </p>
             </div>
             <div className="question-item">
-              <h2><p>DudeStar Digital Marketing โดดเด่นด้านไหน</p></h2>
-              <p>
+              <><p className="qusetion-topic">DudeStar Digital Marketing โดดเด่นด้านไหน</p></>
+              <p className="question-answer">
                 เรามีทีมงานที่พร้อมด้วยประสบการณ์ทางด้านการตลาดออนไลน์มากกว่า 5
                 ปี
                 และยังช่วยแก้ไขปัญหาให้ธุรกิจของคุณดำเนินงานได้อย่างเต็มประสิทธิภาพ
               </p>
             </div>
             <div className="question-item">
-              <h2><p>ต้องใช้งบประมาณเท่าไหร่ในการจ้างเรา</p></h2>
-              <p>
+              <><p className="qusetion-topic">ต้องใช้งบประมาณเท่าไหร่ในการจ้างเรา</p></>
+              <p className="question-answer">
                 ทางแบรนด์สามารถกำหนดงบประมาณในการทำการตลาดตามความเหมาะสมของธุรกิจได้อย่างอิสระ
                 และสามารถจัดการงบประมาณในการตลาดในระดับที่เหมาะสมกับทรัพยากรที่มีอยู่
                 โดยคำนึงถึงผลตอบแทน ที่ต้องการได้อย่างเหมาะสม
               </p>
             </div>
             <div className="question-item">
-              <h2><p>จะติดตามข่าวสารเราได้จากช่องทางไหน</p></h2>
-              <p>Facebook : Dudestar Digital marketing</p>
+              <><p className="qusetion-topic">จะติดตามข่าวสารเราได้จากช่องทางไหน</p></>
+              <p className="question-answer">Facebook : Dudestar Digital marketing</p>
             </div>
           </div>
         </div>

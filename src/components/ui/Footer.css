@@ -23,6 +23,10 @@
     
 }
 
+.sb-footer-links p{
+    font-weight: 300;
+}
+
 
 .footer{
     background-color: #2f2f2f;
@@ -37,8 +41,17 @@
 }
 
 .sb-footer-links-div{
-    width: 400px;
-    margin-bottom: 5rem;
+    /* width: 400px; */
+    margin-bottom: 3rem;
+    /* background-color: rebeccapurple; */
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 10px;
 }
 
 

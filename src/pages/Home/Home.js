@@ -31,7 +31,7 @@ const Home = () => {
           Open
         </button> */}
         <Modal show={show} handleClose={hideModal}>
-          <img src={popupPic}></img>
+          <img src={popupPic} style={{width:"90%"}}></img>
         </Modal>
         <HomeSlide01/>
         <HomeSlide02/>

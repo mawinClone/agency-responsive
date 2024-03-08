@@ -30,7 +30,7 @@ const HomeSlide02 = () => {
             <img
               className="topic-img"
               src={servicePic01}
-              onClick={showModal}
+              // onClick={showModal}
             ></img>
             <Modal show={show} handleClose={hideModal}>
               <img src={servicePic01}></img>

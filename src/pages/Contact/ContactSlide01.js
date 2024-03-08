@@ -7,7 +7,7 @@ const ContactSlide01 = () => {
   return (
     <div className="ContactSlide01">
       <div className="contact-container">
-        <div style={{marginBottom:"30px", fontWeight:"lighter", fontSize:"2vw"}}><p>Contact</p></div>
+        <div style={{marginBottom:"30px", fontWeight:"normal", fontSize:"1vw"}}><p>Contact</p></div>
         <div
           style={{
             display: "flex",

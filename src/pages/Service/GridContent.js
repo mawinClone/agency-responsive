@@ -5,9 +5,9 @@ const GridContent = () => {
   return (
     <div className="grid-parent">
       <div>
-        <h3 style={{ textAlign: "center"}}>
+        <p style={{ textAlign: "center", paddingTop:"30px", color:"white", fontSize:"20px"}}>
           OUR SERVICE
-        </h3>
+        </p>
       </div>
       <div>
         <h3
@@ -15,6 +15,7 @@ const GridContent = () => {
             textAlign: "center",
             margin: "30px 0px 30px 0px",
             fontWeight: "lighter",
+            color:"white"
           }}
         >
           Mascot Branding
@@ -36,6 +37,7 @@ const GridContent = () => {
             textAlign: "center",
             margin: "70px 0px 30px 0px",
             fontWeight: "lighter",
+            color:"white"
           }}
         >
           Social Media Content

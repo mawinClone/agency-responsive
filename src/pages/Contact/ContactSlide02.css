@@ -46,7 +46,9 @@
 
 
 .contact-form-circle{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(68, 68, 68);
     width: 100px;
     height: 100px;
