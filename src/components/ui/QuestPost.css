@@ -1,0 +1,10 @@
+.collapse {
+    transition-property: height;
+    transition-duration: 200ms;
+    overflow: hidden;
+    background-color: #cccccc;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

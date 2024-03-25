@@ -29,7 +29,7 @@ const Navbar = () => {
           <CgMenu />
         </div>
 
-        <div className={`nav-elements  ${showNavbar && "active"}`}>
+        <div className={'nav-elements  ${showNavbar && "active"}'}>
           <ul>
             <li><Link to="/"><p>HOME</p></Link></li>
             <li><Link to="/service"><p>SERVICE</p></Link></li>

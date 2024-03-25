@@ -1,13 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import "./HomeSlide03.css";
 import whowePic from "../../assets/images/Home/whowe.png";
 import newsPic01 from "../../assets/images/Home/news01.png";
 import newsPic02 from "../../assets/images/Home/News02.png";
 import newsPic03 from "../../assets/images/Home/news03.png";
 
-const HomeSlide03 = () => {
+import QuestPost from "../../components/ui/QuestPost";
 
-  
+const HomeSlide03 = () => {
 
 
   return (
@@ -16,7 +16,9 @@ const HomeSlide03 = () => {
       <div className="intro-container">
         <div className="intro-div">
           <div className="text-intro-div">
-            <div className="text-topic"><p style={{ fontSize:"50px"}}>เราคือใคร ?</p></div>
+            <div className="text-topic">
+              <p style={{ fontSize: "50px" }}>เราคือใคร ?</p>
+            </div>
             <p>DudeStar Digital Marketing</p>
             <p>
               เราเป็นทีมการตลาดที่มีความเชี่ยวชาญและมีประสบการณ์ในด้าน Online
@@ -41,7 +43,7 @@ const HomeSlide03 = () => {
             <div className="news-item">
               <img className="news-pic" src={newsPic01}></img>
               <div className="news-detail">
-                <p style={{fontSize:"23px"}}>Trend Marketing 2024</p>
+                <p style={{ fontSize: "23px" }}>Trend Marketing 2024</p>
                 <p>เทรนด์การตลาดที่น่าจับตามอง</p>
                 <p>ในปี 2024 มีอะไรน่าสนใจบ้าง</p>
               </div>
@@ -49,7 +51,7 @@ const HomeSlide03 = () => {
             <div className="news-item">
               <img className="news-pic" src={newsPic02}></img>
               <div className="news-detail">
-                <p style={{fontSize:"23px"}}>DudeStar Content  2024</p>
+                <p style={{ fontSize: "23px" }}>DudeStar Content 2024</p>
                 <p>เทรนด์ Content ในปี 2024</p>
                 <p>ที่กำลังเป็นกระแส</p>
               </div>
@@ -57,7 +59,7 @@ const HomeSlide03 = () => {
             <div className="news-item">
               <img className="news-pic" src={newsPic03}></img>
               <div className="news-detail">
-                <p style={{fontSize:"23px"}}>DudeStar Team 2024</p>
+                <p style={{ fontSize: "23px" }}>DudeStar Team 2024</p>
                 <p>ในปี 2024 เรามีแพลนจะไปในทิศทางไหน</p>
                 <p>และมีกิจกรรมด้านใดบ้าง</p>
               </div>
@@ -66,19 +68,31 @@ const HomeSlide03 = () => {
         </div>
       </div>
 
-      <div className="question-div">
+      <QuestPost/>
+
+      {/* <div className="question-div">
         <div className="question-container">
-          <h1 style={{ marginBottom: "20px", fontSize:"30px" }}><p>คำถามที่พบบ่อย</p></h1>
+          <h1 style={{ marginBottom: "20px", fontSize: "30px" }}>
+            <p>คำถามที่พบบ่อย</p>
+          </h1>
           <div className="question-flex-container">
             <div className="question-item">
-              <><p className="qusetion-topic">ทำไมต้องจ้างบริษัท Agency ในการทำการตลาด</p></>
+              <>
+                <p className="qusetion-topic">
+                  ทำไมต้องจ้างบริษัท Agency ในการทำการตลาด
+                </p>
+              </>
               <p className="question-answer">
                 บริษัทอเจนซี่มักมีทีมงานที่มีความเชี่ยวชาญและประสบการณ์ในด้านตลาดและโฆษณา
                 ซึ่งสามารถช่วยให้โฆษณาของคุณมีประสิทธิภาพมากขึ้นได้
               </p>
             </div>
             <div className="question-item">
-              <><p className="qusetion-topic">DudeStar Digital Marketing โดดเด่นด้านไหน</p></>
+              <>
+                <p className="qusetion-topic">
+                  DudeStar Digital Marketing โดดเด่นด้านไหน
+                </p>
+              </>
               <p className="question-answer">
                 เรามีทีมงานที่พร้อมด้วยประสบการณ์ทางด้านการตลาดออนไลน์มากกว่า 5
                 ปี
@@ -86,7 +100,11 @@ const HomeSlide03 = () => {
               </p>
             </div>
             <div className="question-item">
-              <><p className="qusetion-topic">ต้องใช้งบประมาณเท่าไหร่ในการจ้างเรา</p></>
+              <>
+                <p className="qusetion-topic">
+                  ต้องใช้งบประมาณเท่าไหร่ในการจ้างเรา
+                </p>
+              </>
               <p className="question-answer">
                 ทางแบรนด์สามารถกำหนดงบประมาณในการทำการตลาดตามความเหมาะสมของธุรกิจได้อย่างอิสระ
                 และสามารถจัดการงบประมาณในการตลาดในระดับที่เหมาะสมกับทรัพยากรที่มีอยู่
@@ -94,12 +112,18 @@ const HomeSlide03 = () => {
               </p>
             </div>
             <div className="question-item">
-              <><p className="qusetion-topic">จะติดตามข่าวสารเราได้จากช่องทางไหน</p></>
-              <p className="question-answer">Facebook : Dudestar Digital marketing</p>
+              <>
+                <p className="qusetion-topic">
+                  จะติดตามข่าวสารเราได้จากช่องทางไหน
+                </p>
+              </>
+              <p className="question-answer">
+                Facebook : Dudestar Digital marketing
+              </p>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
